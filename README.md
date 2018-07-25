@@ -37,3 +37,23 @@ Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bos
 }
 ```
 
+## Usage
+
+Specify bosun handler in your metric definition,
+
+**example_check.json**
+```json
+{
+  "checks": {
+    "metrics_cpu_pcnt_usage": {
+      "command": "/opt/sensu/embedded/bin/metrics-name.rb",
+      "handlers": ["bosun"],
+      "interval": 600,
+      "type": "metric",
+      "standalone": false
+    }
+  }
+}
+```
+
+Restart sensu server
