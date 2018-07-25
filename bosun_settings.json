@@ -1,0 +1,7 @@
+{
+  "bosun" : {
+     "bosun_host" : "http://192.168.17.154",
+     "bosun_port" : 8070,
+     "bosun_tags" : {"tag1":"hello","tag2":"hello2"}
+   }
+}
