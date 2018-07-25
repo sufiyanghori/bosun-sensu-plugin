@@ -6,7 +6,11 @@ Send sensu metrics data to Bosun monitoring system using Bosun's `/api/put` endp
 * bosun_settings.json
 * bosun.rb
 
+
+
 ## Installation
+
+Copy `bosun.rb` to `/etc/sensu/plugins` folder.
 
 Create a handler file `bosun_handler.json` in `/etc/sensu/conf.d` with the following content, 
 
@@ -33,4 +37,3 @@ Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bos
 }
 ```
 
-Copy file `bosun.rb` to `/etc/sensu/plugins`
