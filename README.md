@@ -32,3 +32,5 @@ Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bos
    }
 }
 ```
+
+Copy file `bosun.rb` to `/etc/sensu/plugins`
