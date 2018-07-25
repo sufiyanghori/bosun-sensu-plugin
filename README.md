@@ -23,6 +23,7 @@ Create a handler file `bosun_handler.json` in `/etc/sensu/conf.d` with the follo
 
 Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bosun API end point, replacing with your own configuration:
 
+```json
 {
   "bosun" : {
      "bosun_host" : "http://192.168.17.154",
@@ -30,3 +31,4 @@ Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bos
      "bosun_tags" : {"tag1":"tag_value","tag2":"tag_value"}
    }
 }
+```
