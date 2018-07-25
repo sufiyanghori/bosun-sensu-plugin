@@ -1,5 +1,5 @@
 # bosun-sensu-plugin
-Send sensu metrics data to Bosun monitoring system using Bosun's `/api/put` endpoint
+Sends sensu metric data to Bosun monitoring system using Bosun's `/api/put` endpoint
 
 ## Files
 * bosun_handler.json
