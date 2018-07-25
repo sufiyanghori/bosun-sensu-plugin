@@ -26,6 +26,7 @@ Create a handler file `bosun_handler.json` in `/etc/sensu/conf.d` with the follo
 ```
 
 Now, create a file `bosun_settings.json` in `/etc/sensu/conf.d` to configure Bosun API end point, replacing with your own configuration:
+(You can add custom tags to a metric)
 
 ```json
 {
